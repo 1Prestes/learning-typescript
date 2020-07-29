@@ -50,3 +50,7 @@ game = {
     name: 'Cabal',
     genre: 'MMORPG'
 }
+
+// type inference
+let newMessage = 'Hello'
+newMessage = 'World'
