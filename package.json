@@ -10,7 +10,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc"
+      "pre-commit": "tsc index.ts"
     }
   },
   "scripts": {
