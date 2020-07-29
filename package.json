@@ -1,0 +1,29 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "Created project for learning TypeScript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "git-commit-msg-linter": "^2.4.4",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsc"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Prestes/learning-typescript.git"
+  },
+  "author": "Dijango Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Prestes/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/1Prestes/learning-typescript#readme"
+}
